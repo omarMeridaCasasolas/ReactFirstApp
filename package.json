@@ -1,5 +1,5 @@
 {
-  "homepage": "http://omarMeridaCasasolas.github.io/ReactFirstApp",
+  "homepage": "https://pruebas12345.xyz",
   "name": "crud-react",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build && echo pruebas12345.xyz > ./build/CNAME",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
